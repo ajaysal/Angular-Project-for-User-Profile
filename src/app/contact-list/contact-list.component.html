@@ -1,0 +1,7 @@
+<div class="row">
+	<div class="col-md-12">
+    <ul class="list-group">
+      <li class="list-group-item" [ngClass]="{'active':item.selected}" *ngFor="let item of peopleList" (click)="selectPeople(item)">{{item.name}} <i class="fa fa-caret-right" aria-hidden="true"></i></li> 
+    </ul>
+	</div>
+</div>

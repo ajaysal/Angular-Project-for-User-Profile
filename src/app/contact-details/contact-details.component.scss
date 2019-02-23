@@ -1,0 +1,39 @@
+.img-user{
+    height: 150px;
+  }
+  
+  .description-row{
+    
+    margin-top: 20px;
+  
+    .content{
+      padding: 10px;
+      border-left: 5px solid lightgray;
+    }
+  }
+  
+  .likes-row{
+    margin-top: 50px;
+  }
+  
+  .message-rating{
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+  }
+  
+  .star {
+        position: relative;
+        display: inline-block;
+        font-size: 3rem;
+        color: #d3d3d3;
+      }
+      .full {
+        color: black;
+      }
+      .half {
+        position: absolute;
+        display: inline-block;
+        overflow: hidden;
+        color: black;
+      }

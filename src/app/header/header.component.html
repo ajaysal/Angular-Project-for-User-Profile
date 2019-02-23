@@ -1,0 +1,14 @@
+<div class="row header-container">
+	<div class="col-md-4">
+		<section id="search">
+			<label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search icons</span></label>
+        <input id="search-input" class="form-control input-lg" placeholder="Search icons" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1"  [formControl]="searchControl">
+        <a id="search-clear" (click)="clearSearch()" class="fa fa-times-circle hide" aria-hidden="true"><span class="sr-only">Clear search</span></a>
+      </section>
+</div>
+<div class="col-md-8 text-right">
+  <span class="user-name">Peter Hang</span>
+  <i class="fa fa-user" aria-hidden="true"></i>
+  <i class="fa fa-caret-down" aria-hidden="true"></i>
+</div>
+</div>
